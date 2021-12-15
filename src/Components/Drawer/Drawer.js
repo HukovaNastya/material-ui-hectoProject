@@ -15,7 +15,7 @@ const useStyles = makeStyles(()=>({
   drawer: {
     backgroundColor: "#F2F0FF",
     width: '375px',
-    height: "667px",
+    height: "100vh",
     padding: '20px 20px',  
   },
   linkStyle:{
