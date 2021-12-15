@@ -28,7 +28,7 @@ const Banner = () => {
   return(
     <Box className={classes.bannerBox}>
       <Container maxWidth="lg" className={classes.bannerContainer}>
-        <Grid container justifyContent="space-between">
+        <Grid container justifyContent="center">
           <Grid item>
              <SmallBannerTitle/>
              <BigBannerText/>

@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     color: "#fff !important",
     fontFamily: "Josefin Sans !important",
-    fontSize: "17px !important"
+    fontSize: "17px !important",
   }
 }))
 
