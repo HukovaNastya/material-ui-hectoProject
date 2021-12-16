@@ -77,169 +77,169 @@ const ProductsSlider = () => {
   return (
     <div>
       <Slider {...settings}>
-      <div>
-      <Card className={classes.sliderCard}>
-        <Box className={classes.sliderCardBox}>
-          <img src="/img/whiteChair.png"/>
-        </Box>
-        <Box className={classes.bottomCardBox}>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.smallTitleCardBox}}    
-        >
-          Cantilever chair
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.codelTitleCardBox}}    
-         >
-          Code - Y523201
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.pricelTitleCardBox}}    
-        >
-          $42.00
-        </Typography>
-        </Box>
-      </Card>
-      </div>
-      <div>
+        <div>
+          <Card className={classes.sliderCard}>
+            <Box className={classes.sliderCardBox}>
+              <img src="/img/whiteChair.png"/>
+            </Box>
+            <Box className={classes.bottomCardBox}>
+              <Typography 
+                variant="h6" 
+                classes={{h6: classes.smallTitleCardBox}}    
+              >
+                Cantilever chair
+              </Typography>
+              <Typography 
+                variant="h6" 
+                classes={{h6: classes.codelTitleCardBox}}    
+              >
+                Code - Y523201
+              </Typography>
+              <Typography 
+                variant="h6" 
+                classes={{h6: classes.pricelTitleCardBox}}    
+              >
+                $42.00
+              </Typography>
+           </Box>
+          </Card>
+        </div>
+        <div>
+          <Card className={classes.sliderCard}>
+            <Box className={classes.sliderCardBox}>
+              <img src="/img/chair2.png"/>
+            </Box>
+            <Box className={classes.bottomCardBox}>
+              <Typography 
+                variant="h6" 
+                classes={{h6: classes.smallTitleCardBox}}    
+              >
+                Cantilever chair
+              </Typography>
+              <Typography 
+                variant="h6" 
+                classes={{h6: classes.codelTitleCardBox}}    
+              >
+                Code - Y523201
+              </Typography>
+              <Typography 
+                variant="h6" 
+                classes={{h6: classes.pricelTitleCardBox}}    
+              >
+                $42.00
+              </Typography>
+            </Box>
+          </Card>
+        </div>
+        <div>
         <Card className={classes.sliderCard}>
-        <Box className={classes.sliderCardBox}>
-          <img src="/img/chair2.png"/>
-        </Box>
-        <Box className={classes.bottomCardBox}>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.smallTitleCardBox}}    
-        >
-          Cantilever chair
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.codelTitleCardBox}}    
-         >
-          Code - Y523201
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.pricelTitleCardBox}}    
-        >
-          $42.00
-        </Typography>
-        </Box>
-      </Card>
-      </div>
-      <div>
-      <Card className={classes.sliderCard}>
-        <Box className={classes.sliderCardBox}>
-          <img src="/img/chair3.png"/>
-        </Box>
-        <Box className={classes.bottomCardBox}>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.smallTitleCardBox}}    
-        >
-          Cantilever chair
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.codelTitleCardBox}}    
-         >
-          Code - Y523201
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.pricelTitleCardBox}}    
-        >
-          $42.00
-        </Typography>
-        </Box>
-      </Card>
-      </div>
-      <div>
-      <Card className={classes.sliderCard}>
-        <Box className={classes.sliderCardBox}>
-          <img src="/img/whiteChair.png"/>
-        </Box>
-        <Box className={classes.bottomCardBox}>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.smallTitleCardBox}}    
-        >
-          Cantilever chair
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.codelTitleCardBox}}    
-         >
-          Code - Y523201
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.pricelTitleCardBox}}    
-        >
-          $42.00
-        </Typography>
-        </Box>
-      </Card>
-      </div>
-      <div>
-      <Card className={classes.sliderCard}>
-        <Box className={classes.sliderCardBox}>
-          <img src="/img/whiteChair.png"/>
-        </Box>
-        <Box className={classes.bottomCardBox}>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.smallTitleCardBox}}    
-        >
-          Cantilever chair
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.codelTitleCardBox}}    
-         >
-          Code - Y523201
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.pricelTitleCardBox}}    
-        >
-          $42.00
-        </Typography>
-        </Box>
-      </Card>
-      </div>
-      <div>
-      <Card className={classes.sliderCard}>
-        <Box className={classes.sliderCardBox}>
-          <img src="/img/whiteChair.png"/>
-        </Box>
-        <Box className={classes.bottomCardBox}>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.smallTitleCardBox}}    
-        >
-          Cantilever chair
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.codelTitleCardBox}}    
-         >
-          Code - Y523201
-        </Typography>
-        <Typography 
-          variant="h6" 
-          classes={{h6: classes.pricelTitleCardBox}}    
-        >
-          $42.00
-        </Typography>
-        </Box>
-      </Card>
-      </div>
-     </Slider>
+          <Box className={classes.sliderCardBox}>
+            <img src="/img/chair3.png"/>
+          </Box>
+          <Box className={classes.bottomCardBox}>
+            <Typography 
+              variant="h6" 
+              classes={{h6: classes.smallTitleCardBox}}    
+            >
+              Cantilever chair
+            </Typography>
+            <Typography 
+              variant="h6" 
+              classes={{h6: classes.codelTitleCardBox}}    
+            >
+              Code - Y523201
+            </Typography>
+            <Typography 
+              variant="h6" 
+              classes={{h6: classes.pricelTitleCardBox}}    
+            >
+              $42.00
+            </Typography>
+          </Box>
+        </Card>
+        </div>
+        <div>
+        <Card className={classes.sliderCard}>
+          <Box className={classes.sliderCardBox}>
+            <img src="/img/whiteChair.png"/>
+          </Box>
+          <Box className={classes.bottomCardBox}>
+            <Typography 
+              variant="h6" 
+              classes={{h6: classes.smallTitleCardBox}}    
+            >
+              Cantilever chair
+            </Typography>
+            <Typography 
+              variant="h6" 
+              classes={{h6: classes.codelTitleCardBox}}    
+            >
+              Code - Y523201
+            </Typography>
+            <Typography 
+              variant="h6" 
+              classes={{h6: classes.pricelTitleCardBox}}    
+            >
+              $42.00
+            </Typography>
+          </Box>
+          </Card>
+          </div>
+          <div>
+            <Card className={classes.sliderCard}>
+              <Box className={classes.sliderCardBox}>
+                <img src="/img/whiteChair.png"/>
+              </Box>
+              <Box className={classes.bottomCardBox}>
+                <Typography 
+                   variant="h6" 
+                   classes={{h6: classes.smallTitleCardBox}}    
+                >
+                   Cantilever chair
+                </Typography>
+                <Typography 
+                  variant="h6" 
+                  classes={{h6: classes.codelTitleCardBox}}    
+                >
+                  Code - Y523201
+                </Typography>
+                <Typography 
+                  variant="h6" 
+                  classes={{h6: classes.pricelTitleCardBox}}    
+                >
+                  $42.00
+                </Typography>
+              </Box>
+            </Card>
+          </div>
+          <div>
+            <Card className={classes.sliderCard}>
+              <Box className={classes.sliderCardBox}>
+                <img src="/img/whiteChair.png"/>
+              </Box>
+              <Box className={classes.bottomCardBox}>
+                <Typography 
+                  variant="h6" 
+                  classes={{h6: classes.smallTitleCardBox}}    
+                >
+                  Cantilever chair
+                </Typography>
+                <Typography 
+                  variant="h6" 
+                  classes={{h6: classes.codelTitleCardBox}}    
+                >
+                  Code - Y523201
+                </Typography>
+                <Typography 
+                  variant="h6" 
+                  classes={{h6: classes.pricelTitleCardBox}}    
+                >
+                  $42.00
+               </Typography>
+              </Box>
+            </Card>
+          </div>
+      </Slider>
 
     </div>
   )
