@@ -24,10 +24,10 @@ const useStyles = makeStyles((theme) => ({
   },
   imgLink: {
     maxWidth: "192px",
-    height: '32px',
+    // height: '32px',
     [theme.breakpoints.down('sm')]: {
       maxWidth: "144px",
-      height: '24px',
+      // height: '24px',
     },
 
   },

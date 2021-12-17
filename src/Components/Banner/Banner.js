@@ -12,14 +12,14 @@ const useStyles = makeStyles((theme) => ({
   bannerBox: {
     width: "100%",
     backgroundColor: "#F2F0FF",
-    padding:  "100px 0px 103px 0px",
+    padding:  "100px 0px 100px 0px",
   },
   bannerContainer: {
     margin: "0 auto !important",
   },
   bannerImg: {
    maxWidth: "500px",
-   minHeight: "500px"
+   width: "100%"
   }   
 }));
 
@@ -28,7 +28,7 @@ const Banner = () => {
   return(
     <Box className={classes.bannerBox}>
       <Container maxWidth="lg" className={classes.bannerContainer}>
-        <Grid container justifyContent="center">
+        <Grid container justifyContent="center" alignItems="center">
           <Grid item>
              <SmallBannerTitle/>
              <BigBannerText/>
@@ -36,7 +36,7 @@ const Banner = () => {
              <BannerBatton/>
           </Grid>
           <Grid item>
-            <img className={classes.bannerImg} src="/img/chair.png"></img>  
+            <img className={classes.bannerImg} src="/img/chair.png" alt="banner"></img>  
           </Grid>
        </Grid>
       </Container>

@@ -1,4 +1,4 @@
-import Recat from 'react';
+import React from 'react';
 import Typography from '@mui/material/Typography';
 import { makeStyles } from "@material-ui/core";
 
@@ -7,8 +7,7 @@ const useStyles = makeStyles((theme) => ({
       fontFamily: "Lato",
       fontWeight: "700",
       fontSize: "16px !important",
-      color: "#FB2E86 !important",
-      padding: "103px 0px 0px 0px",
+      color: "#FB2E86 !important"
     } 
   }));
 

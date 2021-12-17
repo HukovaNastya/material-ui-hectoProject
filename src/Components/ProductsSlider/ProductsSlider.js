@@ -9,17 +9,17 @@ import Typography from '@mui/material/Typography';
 
 const useStyles = makeStyles((theme) => ({
   sliderCard: {
-      marginTop: "60px",
-      maxWidth: "270px",
-      background: "#fff !important",
-      marginLeft: "10px"
-
+    background: "#fff !important",
+    marginLeft: "10px",
+    marginRight: "10px"
   },
   sliderCardBox: {
     background: "#F6F7FB !important",
-    width: "100%",
-    padding: "46px 46px",
-    // heightt: "236px",
+    padding: "10px 10px",
+    height: "280px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
   },
   smallTitleCardBox: {
     fontFamily: "Lato",
@@ -49,14 +49,14 @@ const useStyles = makeStyles((theme) => ({
   
 
 const ProductsSlider = () => {
-    const classes = useStyles();
+  const classes = useStyles();
   let settings = {
     infinite: true,
-	dots: true,
+	  dots: true,
+    arrows: false,
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 2,
-    
     responsive: [
       {
         breakpoint: 960,
@@ -80,7 +80,7 @@ const ProductsSlider = () => {
         <div>
           <Card className={classes.sliderCard}>
             <Box className={classes.sliderCardBox}>
-              <img src="/img/whiteChair.png"/>
+              <img src="/img/whiteChair.png"  alt="img"/>
             </Box>
             <Box className={classes.bottomCardBox}>
               <Typography 
@@ -107,7 +107,7 @@ const ProductsSlider = () => {
         <div>
           <Card className={classes.sliderCard}>
             <Box className={classes.sliderCardBox}>
-              <img src="/img/chair2.png"/>
+              <img src="/img/chair2.png" alt="img"/>
             </Box>
             <Box className={classes.bottomCardBox}>
               <Typography 
@@ -134,7 +134,7 @@ const ProductsSlider = () => {
         <div>
         <Card className={classes.sliderCard}>
           <Box className={classes.sliderCardBox}>
-            <img src="/img/chair3.png"/>
+            <img src="/img/chair3.png" alt="img"/>
           </Box>
           <Box className={classes.bottomCardBox}>
             <Typography 
@@ -161,7 +161,7 @@ const ProductsSlider = () => {
         <div>
         <Card className={classes.sliderCard}>
           <Box className={classes.sliderCardBox}>
-            <img src="/img/whiteChair.png"/>
+            <img src="/img/whiteChair.png" alt="img"/>
           </Box>
           <Box className={classes.bottomCardBox}>
             <Typography 
@@ -188,7 +188,7 @@ const ProductsSlider = () => {
           <div>
             <Card className={classes.sliderCard}>
               <Box className={classes.sliderCardBox}>
-                <img src="/img/whiteChair.png"/>
+                <img src="/img/whiteChair.png" alt="img"/>
               </Box>
               <Box className={classes.bottomCardBox}>
                 <Typography 
@@ -215,7 +215,7 @@ const ProductsSlider = () => {
           <div>
             <Card className={classes.sliderCard}>
               <Box className={classes.sliderCardBox}>
-                <img src="/img/whiteChair.png"/>
+                <img src="/img/whiteChair.png"  alt="img"/>
               </Box>
               <Box className={classes.bottomCardBox}>
                 <Typography 

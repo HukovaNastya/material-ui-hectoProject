@@ -9,8 +9,6 @@ const FeaturedProductsSection = () => {
     <Container maxWidth="lg" style={{backgroundColor: "#fff", height: "100vh"}}>
       <FeaturedProductsTitle />
       <ProductsSlider/>
-
-
     </Container>
   )
 }

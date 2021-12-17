@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import Typography from '@mui/material/Typography';
 import { makeStyles } from "@material-ui/core";
 
