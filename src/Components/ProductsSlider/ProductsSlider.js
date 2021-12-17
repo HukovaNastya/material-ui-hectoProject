@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   },
   pricelTitleCardBox: {
     fontFamily: "lato",
-    fontWeight: "400",
+    fontWeight: "300",
     textAlign: 'center !important',
     fontSize: "14px !important",
     color: "#151875 !important",
